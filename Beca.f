@@ -1,4 +1,4 @@
-        program wataten
+        program BECA
         implicit none
 
         integer edad;
@@ -6,7 +6,7 @@
         character (1) tipo
 
         beca = 0
-        write(*,*) 'Cuantos a¤os tienes'
+        write(*,*) 'Cuantos aÂ¤os tienes'
         read(*,*)edad
         write(*,*) 'Cual es tu promedio'
         read(*,*)prom
@@ -38,4 +38,4 @@
         write(*,*) 'De beca te llegara: '
         write(*,*) beca
         pause
-        end program wataten
+        end program BECA
