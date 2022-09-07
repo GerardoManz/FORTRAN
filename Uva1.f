@@ -1,4 +1,4 @@
-        program kiminouso
+        program uva1
         implicit none
 
         integer tam;
@@ -14,7 +14,7 @@
 
         write(*,*) 'Que tipo comprara (A/B)'
         read(*,*)tipo
-        write(*,*) 'Que tama¤o (1/2)'
+        write(*,*) 'Que tamaÂ¤o (1/2)'
         read(*,*)tam
 
         if (tipo == 'A') then
@@ -38,4 +38,4 @@
         write(*,*) 'El total es: '
         write(*,*) ini
         pause
-        end program kiminouso
+        end program uva1
