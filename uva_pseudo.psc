@@ -12,7 +12,7 @@ Algoritmo uva
 	
 	Escribir 'Tipo de uva: '
 	leer tipoU
-	escribir 'Tamaño de la uva: '
+	escribir 'TamaÃ±o de la uva: '
 	leer tamU
 	
 	si tipoU = A Entonces
